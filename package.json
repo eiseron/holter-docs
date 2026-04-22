@@ -2,7 +2,7 @@
   "name": "holter-docs",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --host",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
