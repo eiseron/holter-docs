@@ -63,18 +63,9 @@
 
 /* ─── Flatten border radii ────────────────────────────────────────────────── */
 
-.vp-doc [class*='language-'],
-.vp-doc [class*='language-'] code,
-.VPNavBar,
-.VPSidebar,
-.VPLocalSearchBox,
-.VPButton,
-input,
-.tip,
-.warning,
-.danger,
-.info,
-.details {
+*,
+*::before,
+*::after {
   border-radius: 0 !important;
 }
 
