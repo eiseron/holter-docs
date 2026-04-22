@@ -110,11 +110,6 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: {
-      light: '/logo-light.svg',
-      dark: '/logo-dark.svg',
-      alt: 'Holter',
-    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/eiseron/holter' }],
     footer: {
       message: 'Released under the AGPL-3.0 License.',
