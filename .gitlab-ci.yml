@@ -59,4 +59,4 @@ sync-github:
       rm /tmp/github-app.pem
   script:
     - git remote add github "https://x-access-token:${GITHUB_TOKEN}@github.com/eiseron/$CI_PROJECT_NAME.git"
-    - git push github HEAD:main --tags
+    - git push github HEAD:main --tags --force
