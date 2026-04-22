@@ -79,12 +79,8 @@
 
 /* ─── Typography ──────────────────────────────────────────────────────────── */
 
-.vp-doc h1,
-.vp-doc h2,
-.vp-doc h3,
-.vp-doc h4,
-.vp-doc h5,
-.vp-doc h6 {
+h1, h2, h3, h4, h5, h6,
+.VPSidebarItem.level-0 > .item .text {
   font-family: 'Roboto Mono', ui-monospace, monospace;
 }
 
