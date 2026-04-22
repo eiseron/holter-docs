@@ -1,3 +1,7 @@
+/* ─── Fonts ───────────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Mono:wght@500;600;700&display=swap');
+
 /* ─── Holter design tokens ────────────────────────────────────────────────── */
 
 :root {
@@ -31,6 +35,10 @@
   --vp-border-radius: 0px;
   --vp-rounded-sm:    0px;
   --vp-input-border-radius: 0px;
+
+  /* Fonts */
+  --vp-font-family-base: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: 'Roboto Mono', ui-monospace, monospace;
 }
 
 .dark {
@@ -67,6 +75,17 @@
 *::before,
 *::after {
   border-radius: 0 !important;
+}
+
+/* ─── Typography ──────────────────────────────────────────────────────────── */
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: 'Roboto Mono', ui-monospace, monospace;
 }
 
 /* ─── Nav — match holter surface colors ──────────────────────────────────── */
