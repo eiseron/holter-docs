@@ -77,6 +77,8 @@ function versionNav(): DefaultTheme.NavItemWithChildren | null {
 const versionNavItem = versionNav()
 
 export default defineConfig({
+  title: 'Holter',
+  titleTemplate: ':title — Holter Docs',
   srcDir: './src',
   outDir: './.vitepress/dist',
 
@@ -108,7 +110,11 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: {
+      light: '/logo-light.svg',
+      dark: '/logo-dark.svg',
+      alt: 'Holter',
+    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/eiseron/holter' }],
     footer: {
       message: 'Released under the AGPL-3.0 License.',
